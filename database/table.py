@@ -63,7 +63,7 @@ def selectName(day):
     try:
         sqlite_connection = sqlite3.connect("sqlite_pyth.db")
         cursor = sqlite_connection.cursor()
-        print("База данных создана и подключена SQLite")
+
 
         sqlite_select_query = "SELECT * FROM days WHERE day = ?"
         cursor.execute(sqlite_select_query, (day,))
