@@ -1,0 +1,4 @@
+CREATE TABLE days (
+day TEXT PRIMARY KEY NOT NULL,
+full_day TEXT NOT NULL
+):
